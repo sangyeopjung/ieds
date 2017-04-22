@@ -20,15 +20,15 @@ ul {
     background-color: midnightblue;
     float: left;
     width: 160px;
-    min-height: 890px;
+    min-height: 500px;
     padding: 5px;
 }
 
 ul li {
     height: 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(18,60,111);
     border-radius: 5px;
-    background-color: rgb(18,60,111);
+    background-color: midnightblue;
     font-size: 18px;
     padding: 10px 10px;
     margin: 10px 0;
@@ -42,7 +42,8 @@ ul li a {
 .container {
     float: left;
     width: 810px;
-    min-height: 900px;
+    min-height: 800px;
+    height: auto;
 }
 
 .photo img {
