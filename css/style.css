@@ -10,17 +10,17 @@ body, html {
 }
 
 ul {
-    width: 140px;
+    width: 150px;
     padding: 5px;
     list-style: none;
-    margin: 5px;
+    margin: 0;
 }
 
 .sidebar {
     background-color: midnightblue;
     float: left;
     width: 160px;
-    height: 890px;
+    min-height: 890px;
     padding: 5px;
 }
 
@@ -31,7 +31,7 @@ ul li {
     background-color: rgb(18,60,111);
     font-size: 18px;
     padding: 10px 10px;
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 ul li a {
@@ -41,9 +41,8 @@ ul li a {
 
 .container {
     float: left;
-    width: 790px;
-    height: 900px;
-    padding: 0 10px;
+    width: 810px;
+    min-height: 900px;
 }
 
 .photo img {
@@ -64,6 +63,7 @@ ul li a {
 }
 
 .content {
+    padding: 0 10px;
     font-size: 18px;
     line-height: 1.5;
 }
