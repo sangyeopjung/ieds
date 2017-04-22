@@ -1,34 +1,35 @@
 body, html {
     height: 100%;
-    min-width: 1080px;
+    margin: 0;
 }
 
 .main {
-    width: 1080px;
+    width: 980px;
     margin: 0 auto;
     padding: 0;
 }
 
 ul {
-    width: 240px;
+    width: 140px;
     padding: 5px;
     list-style: none;
     margin: 5px;
 }
 
 .sidebar {
-    background-color: steelblue;
+    background-color: midnightblue;
     float: left;
-    width: 260px;
-    height: 1000px;
+    width: 160px;
+    height: 890px;
     padding: 5px;
 }
 
 ul li {
-    height: 28px;
+    height: 20px;
     border: 2px solid white;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(18,60,111);
+    font-size: 18px;
     padding: 10px 10px;
     margin: 8px 0;
 }
@@ -39,10 +40,9 @@ ul li a {
 }
 
 .container {
-    /*background-color: lightgreen;*/
     float: left;
     width: 790px;
-    height: 1020px;
+    height: 900px;
     padding: 0 10px;
 }
 
@@ -55,28 +55,35 @@ ul li a {
     position: absolute;
     font-size: 24px;
     top: 10px;
-    width: 100%;
 }
 
 .photo .i{
     position: absolute;
     font-size: 24px;
     top: 60px;
-    width: 100%;
 }
 
 .content {
-    width: 790px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 .r {
+    text-align: right;
+    width: 775px;
     color: red;
+    padding-right: 15px;
 }
 
 .i {
     color: red;
     font-style: italic;
-    top: 30px;
+    padding-right: 15px;
+    text-align: right;
+    width: 775px;
+}
+
+.footer p {
+    text-align: right;
+    margin: 10px;
 }
