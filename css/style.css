@@ -9,7 +9,7 @@ body, html {
     padding: 0;
 }
 
-ul {
+.sidebar ul {
     width: 150px;
     padding: 5px;
     list-style: none;
@@ -24,7 +24,7 @@ ul {
     padding: 5px;
 }
 
-ul li {
+.sidebar ul li {
     height: 20px;
     border: 2px solid rgb(18,60,111);
     border-radius: 5px;
@@ -34,7 +34,7 @@ ul li {
     margin: 10px 0;
 }
 
-ul li a {
+.sidebar ul li a {
     color: white;
     cursor: pointer;
 }
