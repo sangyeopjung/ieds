@@ -21,6 +21,7 @@ body, html {
     float: left;
     width: 160px;
     min-height: 770px;
+    height: 100%;
     padding: 5px;
 }
 
